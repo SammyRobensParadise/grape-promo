@@ -38,6 +38,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This will deploy whatever is bundled in the `build` folder to a provisioned firebase instance. It may take up to an hour for code changes to propigate across all servers so keep that in mind when deploying.
 
+## Hosting URL:
+
+https://grape-promo.firebaseapp.com/
+
+
 ## Questions?
 
 Email or @ srobensparadise@gmail.com
@@ -46,5 +51,6 @@ Email or @ srobensparadise@gmail.com
 Ensure the following:
 1. There are no breaking changes.
 2. If you are changing dependencies ensure you do a version bump commit
-3. Only rebase master if you are confident in your merge
-4. Ensure you have consulted before you make design changes
+3. There are no API keys hardcoded into code that a user could access
+4. Only rebase master if you are confident in your merge
+5. Ensure you have consulted before you make design changes
