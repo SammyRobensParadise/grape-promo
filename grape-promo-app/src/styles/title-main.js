@@ -5,5 +5,8 @@ const TitleLarge = styled.h1`
   font-weight: 300;
   font-size: 100pt;
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 45px;
 `;
 export default TitleLarge;
