@@ -3,6 +3,9 @@ import Container from "./styles/wrapper-styles";
 import TitleLarge from './styles/title-main'
 import Navigation from './global-comp-lib/comp-navigation/navbar'
 import Inform from './global-comp-lib/comp-call-to-action/inform'
+import ButtonCallToAction from './global-comp-lib/comp-cta-button/button-call-to-action-styles.js/button-call-to-action'
+//text constants
+const FIND_OUT_HOW  = 'Find out How'
 class Wrapper extends Component {
   constructor(props) {
     super(props);
@@ -21,6 +24,7 @@ class Wrapper extends Component {
           <Navigation/>
           <TitleLarge>Grape</TitleLarge>
           <Inform></Inform>
+          <ButtonCallToAction text={FIND_OUT_HOW}></ButtonCallToAction>
       </Container>
     );
   }
