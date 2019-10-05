@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import WhatAsset from './grape_promo_what_art.svg'
+import {WhatSVGStyles} from './what-svg-styles'
 class WhatSVG extends Component {
   constructor(props) {
     super(props);
@@ -15,7 +16,9 @@ class WhatSVG extends Component {
   render() {
     return (
       <div>
-          {<WhatAsset height={680} width={1300}></WhatAsset>}
+          <WhatSVGStyles>
+          <WhatAsset height={480} width={700}></WhatAsset>
+          </WhatSVGStyles>
       </div>
     );
   }

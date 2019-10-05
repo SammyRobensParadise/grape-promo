@@ -34,7 +34,7 @@ class Wrapper extends Component {
         <Inform></Inform>
         <ButtonCallToAction text={FIND_OUT_HOW}></ButtonCallToAction>
         <LandinSVG></LandinSVG>
-        <WhatSVG></WhatSVG>
+        
         <JContainer content={WHAT_SECTION_}>
         </JContainer>
 

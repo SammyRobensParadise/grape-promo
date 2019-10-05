@@ -3,20 +3,23 @@ const JContentStyle = styled.section`
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
 font-family: "Montserrat", sans-serif;
 font-weight: 200;
-font-size: 18pt;
+font-size: 16pt;
 color: #ffffff;
 text-align: left;
 position: relative;
-float: right;
 z-index: 99;
-width: 600px;
 opacity: 0.7;
-text-align: left;
 font: ExtraLight 18px/22px Montserrat;
 letter-spacing: 0;
+float: right:
+margin-right: 300px;
 `;
 const AdjustEl = styled.section`
-width: 50%;
-postion: relative;
 `
-export { JContentStyle,AdjustEl};
+const ParaStyle =styled.p`
+position: relative;
+float right;
+margin-right: 240px;
+width: 500px
+`
+export { JContentStyle,AdjustEl,ParaStyle};

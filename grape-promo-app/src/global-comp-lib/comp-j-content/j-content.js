@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { JContentStyle, AdjustEl } from "./j-content-styles";
+import { JContentStyle, AdjustEl,ParaStyle } from "./j-content-styles";
 class JContent extends Component {
   constructor(props) {
     super(props);
@@ -18,7 +18,7 @@ class JContent extends Component {
       <div>
         <AdjustEl>
           <JContentStyle>
-          <p>{text}</p></JContentStyle>
+          <ParaStyle>{text}</ParaStyle></JContentStyle>
         </AdjustEl>
       </div>
     );
