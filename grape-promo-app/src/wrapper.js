@@ -6,6 +6,7 @@ import Inform from "./global-comp-lib/comp-call-to-action/inform";
 import ButtonCallToAction from "./global-comp-lib/comp-cta-button/button-call-to-action-styles.js/button-call-to-action";
 import LandinSVG from "./global-comp-lib/comp-landing-svg/landing-svg";
 import JContainer from './global-comp-lib/comp-j-container/j-container'
+import WhatSVG from './global-comp-lib/comp-what-svg/what-svg'
 //text constants
 const FIND_OUT_HOW = "Find out How";
 const TITLE = "Grape";
@@ -33,8 +34,10 @@ class Wrapper extends Component {
         <Inform></Inform>
         <ButtonCallToAction text={FIND_OUT_HOW}></ButtonCallToAction>
         <LandinSVG></LandinSVG>
+        <WhatSVG></WhatSVG>
         <JContainer content={WHAT_SECTION_}>
         </JContainer>
+
       </Container>
     );
   }

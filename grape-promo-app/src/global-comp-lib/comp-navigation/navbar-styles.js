@@ -29,6 +29,6 @@ const NavigationChild = styled.section`
   font-size: 18pt;
   padding-left: 35px;
   margin-right: 35px;
-
+  float: right;
 `;
 export { NavigationContainer, NavigationBrand, NavigationChild };
