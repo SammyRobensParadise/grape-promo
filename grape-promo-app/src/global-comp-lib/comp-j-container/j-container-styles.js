@@ -16,7 +16,6 @@ text-align: center;
 `
 const ButtonContainer  = styled.section`
 width: 100%;
-height: 250px;
 text-align:center;
 position: relative;
 transform: translateY(-200px);
