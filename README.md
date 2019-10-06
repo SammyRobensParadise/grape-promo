@@ -48,8 +48,7 @@ This will deploy whatever is bundled in the `build` folder to a provisioned fire
 https://grape-promo.firebaseapp.com/
 
 ## File Structure:
-`
-| firebase deps and storage rules
+`| firebase deps and storage rules
 | functions
 | node_modules
 | build
@@ -68,9 +67,7 @@ https://grape-promo.firebaseapp.com/
     | index.js
     | serviceWorker.js
 | package-lock.json
-| package.json
-
-`
+| package.json`
 
 ## Questions?
 
