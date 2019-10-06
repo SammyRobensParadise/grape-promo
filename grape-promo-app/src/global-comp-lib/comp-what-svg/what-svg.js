@@ -17,7 +17,7 @@ class WhatSVG extends Component {
     return (
       <div>
           <WhatSVGStyles>
-          <WhatAsset height={480} width={700}></WhatAsset>
+          <WhatAsset height={610} width={600}></WhatAsset>
           </WhatSVGStyles>
       </div>
     );

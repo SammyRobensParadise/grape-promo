@@ -15,6 +15,9 @@ border-radius: 10px;
 display: inline-block;
 margin-top: 35px;
 margin-botton: 25px;
+&:hover{
+    cursor: pointer;
+}
 `;
 const CenterEl = styled.section`
 text-align: center;

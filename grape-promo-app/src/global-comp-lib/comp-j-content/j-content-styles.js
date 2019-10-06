@@ -12,14 +12,15 @@ opacity: 0.7;
 font: ExtraLight 18px/22px Montserrat;
 letter-spacing: 0;
 float: right:
-margin-right: 300px;
 `;
 const AdjustEl = styled.section`
 `
 const ParaStyle =styled.p`
 position: relative;
 float right;
-margin-right: 240px;
-width: 500px
+margin-right: 60px;
+top: 120px;
+width: 480px;
+opacity: 0.7;
 `
 export { JContentStyle,AdjustEl,ParaStyle};

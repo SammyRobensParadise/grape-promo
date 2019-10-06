@@ -5,14 +5,20 @@ const JContainerStyle = styled.section`
   display: inline-block;
   width: 80%;
   height: 759px;
-  /*background: transparent linear-gradient(180deg, #2f2660 0%, #a24373 100%) 0%
-    0% no-repeat padding-box;*/
-    background-color: purple;
-  box-shadow: 0px 3px 6px #a42ec765;
+  background: transparent linear-gradient(180deg, rgba(47, 38, 96, 0.31) 0%, rgba(162, 67, 115, 0.31) 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(140, 146, 129, 0.21);
   border-radius: 30px;
-  opacity: 0.21;
+  margin-top: 100px;
 `;
 const CenterEl = styled.section`
 text-align: center;
 `
-export { JContainerStyle,CenterEl};
+const ButtonContainer  = styled.section`
+width: 100%;
+height: 250px;
+text-align:center;
+position: relative;
+transform: translateY(-200px);
+`
+export { JContainerStyle,CenterEl,ButtonContainer};

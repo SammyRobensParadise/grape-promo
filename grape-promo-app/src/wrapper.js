@@ -6,13 +6,13 @@ import Inform from "./global-comp-lib/comp-call-to-action/inform";
 import ButtonCallToAction from "./global-comp-lib/comp-cta-button/button-call-to-action-styles.js/button-call-to-action";
 import LandinSVG from "./global-comp-lib/comp-landing-svg/landing-svg";
 import JContainer from './global-comp-lib/comp-j-container/j-container'
-import WhatSVG from './global-comp-lib/comp-what-svg/what-svg'
 //text constants
 const FIND_OUT_HOW = "Find out How";
 const TITLE = "Grape";
 const WHAT_SECTION_= {
   TITLE: "What",
-  CONTENT: "So you’ve built something beautiful. But you want to share it with people — and you don’t just want to share it, you want people to use it. Grape will change the way people learn how to code but giving people the power to create comprehensive, cutting edge tutorials about software and tech that can be used by everyone, for everyone. Grape will allow people of all skill levels to learn document and explan their coding knowledge without the overhead of subscription-based services for new learners."
+  CONTENT: "So you’ve built something beautiful. But you want to share it with people — and you don’t just want to share it, you want people to use it. Grape will change the way people learn how to code but giving people the power to create comprehensive, cutting edge tutorials about software and tech that can be used by everyone, for everyone. Grape will allow people of all skill levels to learn document and explan their coding knowledge without the overhead of subscription-based services for new learners.",
+  BUTTON_TEXT: 'Find out who is making grape…'
 }
 class Wrapper extends Component {
   constructor(props) {

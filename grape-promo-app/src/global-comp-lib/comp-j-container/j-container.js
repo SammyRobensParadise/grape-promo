@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import {Row, Col } from "reactstrap";
-import { JContainerStyle, CenterEl } from "./j-container-styles";
+import { JContainerStyle, CenterEl,ButtonContainer } from "./j-container-styles";
 import SectionTitle from "../comp-section-title/section-title";
 import JContent from "../comp-j-content/j-content";
 import WhatSVG from "../comp-what-svg/what-svg";
+import ButtonCallToAction from '../comp-cta-button/button-call-to-action-styles.js/button-call-to-action.js'
 class JContainer extends Component {
   constructor(props) {
     super(props);
@@ -17,18 +17,23 @@ class JContainer extends Component {
     });
   }
   render() {
-    const { TITLE, CONTENT } = this.props.content;
+    const { TITLE, CONTENT,BUTTON_TEXT } = this.props.content;
     return (
       <div>
         <CenterEl>
-          <SectionTitle text={TITLE}></SectionTitle>
-          <div>
-                <WhatSVG></WhatSVG>
+          <JContainerStyle>
+            <SectionTitle text={TITLE}></SectionTitle>
+            <div>
+              <WhatSVG></WhatSVG>
+              <JContent text={CONTENT}></JContent>
+            </div>
+            <div>
 
-                <JContent text={CONTENT}></JContent>
-
-          </div>
-          <JContainerStyle></JContainerStyle>
+            </div>
+          </JContainerStyle>
+          <ButtonContainer>
+            <ButtonCallToAction text={BUTTON_TEXT}></ButtonCallToAction>
+            </ButtonContainer>
         </CenterEl>
       </div>
     );

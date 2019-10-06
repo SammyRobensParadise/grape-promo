@@ -15,7 +15,7 @@ class LandingSVG extends Component {
   render() {
     return (
       <div>
-          {<LandingAsset height={680} width={1300}></LandingAsset>}
+          {<LandingAsset height={600} width={1300}></LandingAsset>}
       </div>
     );
   }
