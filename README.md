@@ -4,6 +4,8 @@ your friendly neighbourhood promotional react-app for Grape 🍇 hosted on 🔥 
 
 
 ### Setup:
+*This app uses `npm` as it's package manager*
+
 1. `git clone https://github.com/SammyRobensParadise/grape-promo.git`
 2. `npm install`
 3. `npm install -g firebase-tools`
@@ -45,6 +47,30 @@ This will deploy whatever is bundled in the `build` folder to a provisioned fire
 
 https://grape-promo.firebaseapp.com/
 
+## File Structure:
+`
+| firebase deps and storage rules
+| functions
+| node_modules
+| build
+| public
+    | favicon
+    | index.html
+    | manifest.json
+    | robots.txt
+| src
+    | global-comp-lib
+        *contains all components
+    | App.js
+    | *App.test.js
+    | index.css
+    | wrapper.js
+    | index.js
+    | serviceWorker.js
+| package-lock.json
+| package.json
+
+`
 
 ## Questions?
 
