@@ -13,9 +13,10 @@ class Inform extends Component {
     });
   }
   render() {
+    const {text} =this.props
     return (
       <div>
-          <InformText>We are working to build a platform that will change the way people learn code</InformText>
+          <InformText>{text}</InformText>
       </div>
     );
   }
