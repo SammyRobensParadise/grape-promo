@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import WhatAsset from './grape_promo_what_art.svg'
+import WhatAsset from './comp-what-lib/grape_promo_what_art.svg'
 import {WhatSVGStyles} from './what-svg-styles'
 class WhatSVG extends Component {
   constructor(props) {

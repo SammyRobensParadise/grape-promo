@@ -2,13 +2,13 @@ import styled from "styled-components";
 const CalltoActionButton = styled.section`
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
 font-family: "Montserrat", sans-serif;
-font-weight: 300;
-font-size: 16pt;
+font-weight: 200;
+font-size: 12pt;
 color: #ffffff;
 text-align: center;
-width: 350px;
+width: 380px;
 height: 30px;
-padding-top: 5px;
+padding-top: 12px;
 background-color: #269F9D;
 box-shadow: 0px 3px 2px #B6336931;
 border-radius: 10px;

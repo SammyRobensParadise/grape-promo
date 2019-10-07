@@ -9,6 +9,7 @@ import {
 import SectionTitle from "../comp-section-title/section-title";
 import ButtonCallToAction from "../comp-cta-button/button-call-to-action-styles.js/button-call-to-action.js";
 import Inform from "../comp-call-to-action/inform";
+import AboutUs from './k-comp-lib/about-us'
 class KContainer extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +23,12 @@ class KContainer extends Component {
     });
   }
   render() {
-    const { TITLE, CONTENT, BUTTON_TEXT } = this.props.content;
+    const { TITLE, CONTENT, /*BUTTON_TEXT,*/ SAMMY_DEF,ASH_DEF,ANDREW_DEF } = this.props.content;
+    const DEF = {
+        SAMMY_DEF,
+        ASH_DEF,
+        ANDREW_DEF
+    }
     return (
       <div>
         <CenterEl>
@@ -31,12 +37,14 @@ class KContainer extends Component {
             <SpacingArea>
               <Inform text={CONTENT}></Inform>
             </SpacingArea>
-            <FlowArea></FlowArea>
+            <FlowArea>
+                <AboutUs text={DEF}></AboutUs>
+            </FlowArea>
           </KContainerStyle>
-          <ButtonContainer>
-            <ButtonCallToAction text={BUTTON_TEXT}></ButtonCallToAction>
-          </ButtonContainer>
         </CenterEl>
+       {/* <ButtonContainer>
+            <ButtonCallToAction text={BUTTON_TEXT}></ButtonCallToAction>
+       </ButtonContainer> */}
       </div>
     );
   }
