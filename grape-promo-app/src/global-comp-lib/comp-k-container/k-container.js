@@ -23,7 +23,7 @@ class KContainer extends Component {
     });
   }
   render() {
-    const { TITLE, CONTENT, /*BUTTON_TEXT,*/ SAMMY_DEF,ASH_DEF,ANDREW_DEF } = this.props.content;
+    const { TITLE, CONTENT, BUTTON_TEXT, SAMMY_DEF,ASH_DEF,ANDREW_DEF } = this.props.content;
     const DEF = {
         SAMMY_DEF,
         ASH_DEF,
@@ -42,9 +42,9 @@ class KContainer extends Component {
             </FlowArea>
           </KContainerStyle>
         </CenterEl>
-       {/* <ButtonContainer>
+       <ButtonContainer lower>
             <ButtonCallToAction text={BUTTON_TEXT}></ButtonCallToAction>
-       </ButtonContainer> */}
+       </ButtonContainer> 
       </div>
     );
   }

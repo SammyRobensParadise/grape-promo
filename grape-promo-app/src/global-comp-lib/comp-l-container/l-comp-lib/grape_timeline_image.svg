@@ -1,0 +1,60 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+    <defs>
+        <linearGradient id="Orchid" x1="912" y1="540" x2="1008" y2="540" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ff7bac"/>
+            <stop offset="0.22" stop-color="#ff7bac" stop-opacity="0.76"/>
+            <stop offset="0.6" stop-color="#ff7bac" stop-opacity="0.36"/>
+            <stop offset="0.87" stop-color="#ff7bac" stop-opacity="0.1"/>
+            <stop offset="1" stop-color="#ff7bac" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="Orchid-2" x1="1749" x2="1845" xlink:href="#Orchid"/>
+        <linearGradient id="Orchid-3" x1="536" x2="632" gradientTransform="translate(796)" xlink:href="#Orchid"/>
+        <linearGradient id="Orchid-4" x1="2216" x2="2312" gradientTransform="matrix(-1, 0, 0, 1, 2804, 0)" xlink:href="#Orchid"/>
+        <linearGradient id="Orchid-5" x1="3478" x2="3574" gradientTransform="matrix(-1, 0, 0, 1, 3648, 0)" xlink:href="#Orchid"/>
+        <linearGradient id="linear-gradient" x1="383.54" y1="292.55" x2="696.46" y2="292.55" gradientTransform="translate(0 196)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffac"/>
+            <stop offset="0.22" stop-color="#f9eeac" stop-opacity="0.76"/>
+            <stop offset="0.6" stop-color="#efd1ac" stop-opacity="0.36"/>
+            <stop offset="0.87" stop-color="#e8bfac" stop-opacity="0.1"/>
+            <stop offset="1" stop-color="#e6b8ac" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="radial-gradient" cx="529.54" cy="538.37" r="1387.19" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#a568b3"/>
+            <stop offset="0.46" stop-color="#d171b0" stop-opacity="0.51"/>
+            <stop offset="0.83" stop-color="#f278ad" stop-opacity="0.14"/>
+            <stop offset="1" stop-color="#ff7bac" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-2" cx="541.83" cy="142.57" r="84.9" xlink:href="#radial-gradient"/>
+        <style>
+            .cls-1{fill:#00a99d}.cls-10{opacity:.7;font-size:36px;fill:#fff;font-family:Montserrat-ExtraLight,Montserrat;font-weight:200}.cls-12,.cls-15{letter-spacing:-.01em}.cls-23{letter-spacing:-.02em}
+        </style>
+    </defs>
+    <title>
+        grape_timeline_image
+    </title>
+    <path class="cls-1" d="M1798.5,466a74,74,0,0,0-67.64,44h-284a74,74,0,0,0-135.28,0h-284a74,74,0,0,0-135.28,0H608.85a74,74,0,0,0-136.2,0H189.14a74,74,0,1,0,.46,59H473.11a74,74,0,0,0,135.28,0H891.9a74,74,0,0,0,136.2,0h283.05a74,74,0,0,0,136.2,0H1730.4a74,74,0,1,0,68.1-103Z"/>
+    <polygon class="cls-1" points="540 188 496.7 113 583.3 113 540 188"/>
+    <path d="M1798.5,466a74,74,0,0,0-67.64,44h-284a74,74,0,0,0-135.28,0h-284a74,74,0,0,0-135.28,0H608.85a74,74,0,0,0-136.2,0H189.14a74,74,0,1,0,.46,59H473.11a74,74,0,0,0,135.28,0H891.9a74,74,0,0,0,136.2,0h283.05a74,74,0,0,0,136.2,0H1730.4a74,74,0,1,0,68.1-103Z" style="fill:url(#radial-gradient)"/>
+    <polygon points="540 188 496.7 113 583.3 113 540 188" style="fill:url(#radial-gradient-2)"/>
+    <circle cx="960" cy="540" r="48" style="fill:url(#Orchid)"/>
+    <circle cx="1797" cy="540" r="48" style="fill:url(#Orchid-2)"/>
+    <circle cx="1380" cy="540" r="48" style="fill:url(#Orchid-3)"/>
+    <circle cx="540" cy="540" r="48" style="fill:url(#Orchid-4)"/>
+    <circle cx="122" cy="540" r="48" style="fill:url(#Orchid-5)"/>
+    <path d="M540,188,383.54,766a541.52,541.52,0,0,0,312.92,0Q618.23,477,540,188Z" style="opacity:.5;fill:url(#linear-gradient)"/>
+    <text class="cls-10" transform="translate(40.78 690.16)">
+        Res<tspan x="64.04" y="0" style="letter-spacing:-.01em">e</tspan><tspan x="84.78" y="0">a</tspan><tspan class="cls-12" x="105.59" y="0">r</tspan><tspan x="119.05" y="0" style="letter-spacing:-.01em">c</tspan><tspan x="138.49" y="0">h</tspan>
+    </text>
+    <text class="cls-10" transform="translate(471.51 690.16)">
+        <tspan style="letter-spacing:-.03em">P</tspan><tspan class="cls-15" x="24.62" y="0">r</tspan><tspan x="38.09" y="0">oof of</tspan><tspan x="-6.84" y="43.2" style="letter-spacing:-.02em">C</tspan><tspan x="17.96" y="43.2">o</tspan><tspan x="40.07" y="43.2" style="letter-spacing:0">n</tspan><tspan x="64.22" y="43.2" style="letter-spacing:-.01em">c</tspan><tspan x="83.63" y="43.2" style="letter-spacing:0">ept</tspan>
+    </text>
+    <text class="cls-10" transform="translate(871.16 690.16)">
+        Minimum<tspan x="37.17" y="43.2">viable</tspan><tspan x="17.78" y="86.4">p</tspan><tspan class="cls-15" x="42.01" y="86.4">r</tspan><tspan x="55.48" y="86.4">odu</tspan><tspan x="125.78" y="86.4" style="letter-spacing:0">c</tspan><tspan x="145.73" y="86.4">t</tspan>
+    </text>
+    <text class="cls-10" transform="translate(1338.38 690.16)">
+        <tspan style="letter-spacing:-.01em">M</tspan><tspan x="34.09" y="0" style="letter-spacing:-.01em">V</tspan><tspan x="57.92" y="0">P</tspan><tspan class="cls-12" x="-20.05" y="43.2">r</tspan><tspan x="-6.59" y="43.2">el</tspan><tspan class="cls-23" x="23.87" y="43.2">e</tspan><tspan x="44.6" y="43.2">ase</tspan>
+    </text>
+    <text class="cls-10" transform="translate(1726.3 690.16)">
+        I<tspan x="10.44" y="0" style="letter-spacing:-.02em">t</tspan><tspan x="23.83" y="0">e</tspan><tspan x="45.11" y="0" style="letter-spacing:-.01em">r</tspan><tspan x="58.71" y="0">ati</tspan><tspan class="cls-23" x="102.81" y="0">v</tspan><tspan x="120.89" y="0">e</tspan><tspan x="8.24" y="43.2">Design</tspan>
+    </text>
+</svg>

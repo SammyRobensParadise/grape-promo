@@ -14,7 +14,7 @@ const ButtonContainer  = styled.section`
 width: 100%;
 text-align:center;
 position: relative;
-transform: translateY(-200px);
+transform: translateY(${props  => props.lower?'20px':'-200px'});
 `
 const SpacingArea = styled.section`
 position: relative;
@@ -32,7 +32,7 @@ display: inline-block;
 position: relative;
 width: 100%;
 height: 340px;
-background: transparent linear-gradient(180deg, rgba(47, 38, 96, 0.31) 0%, rgba(162, 67, 115, 0.31) 100%) 0%
+background: transparent linear-gradient(180deg, rgba(117, 63, 145, 0.10) 0%, rgba(185, 92, 139, 0.31) 100%) 0%
   0% no-repeat padding-box;
 box-shadow: 0px 3px 6px rgba(140, 146, 129, 0.21);
 border-radius: 30px;
