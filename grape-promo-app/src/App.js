@@ -16,7 +16,7 @@ const LOVE_REACT_MESSAGE = 'Built with ❤️ using React and hosted on 🔥-Bas
  * that contains the app content
  */
 function App() {
-  //Console Messages for IEEE policy
+  // Console Messages
   colors.enable();
   console.log(CONSOLE_MESSAGE.underline.brightGreen)
   console.log(CONSOLE_MESSAGE_NEXT.underline.brightGreen)
