@@ -77,8 +77,14 @@ Email or @ srobensparadise@gmail.com
 
 ## Committing Code?
 Ensure the following:
-1. There are no breaking changes.
-2. If you are changing dependencies ensure you do a version bump commit
-3. There are no API keys hardcoded into code that a user could access
-4. Only rebase master if you are confident in your merge
-5. Ensure you have consulted before you make design changes
+1. [ ] There are no breaking changes.
+2. [ ] If you are changing dependencies ensure you do a version bump commit
+3. [ ] There are no API keys hardcoded into code that a user could access
+4. [ ] Only rebase master if you are confident in your merge
+5. [ ] Ensure you have consulted before you make design changes
+
+## Contributors:
+
+1.  Sammy Robens-Paradise, The University of Waterloo [website](https://sammyrp.com)
+2.  ...
+3.  ...
