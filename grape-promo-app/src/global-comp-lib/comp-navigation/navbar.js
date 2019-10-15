@@ -17,7 +17,7 @@ const NAVIGATION_SECTIONS = {
 class Navigation extends Component {
   constructor(props) {
     super(props);
-    var { TOP_GRAPE /*WHAT,WHO,HOW*/ } = NAVIGATION_SECTIONS;
+    var { TOP_GRAPE} = NAVIGATION_SECTIONS;
     this.state = {
       hasRenderedLocal: false,
       currentScrollPosition: 0,

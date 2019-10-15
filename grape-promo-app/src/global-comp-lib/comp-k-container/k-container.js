@@ -9,8 +9,8 @@ import {
 import SectionTitle from "../comp-section-title/section-title";
 import ButtonCallToAction from "../comp-cta-button/button-call-to-action-styles.js/button-call-to-action.js";
 import Inform from "../comp-call-to-action/inform";
-import AboutUs from './k-comp-lib/about-us'
-import * as CONSTANTS from '../../constants'
+import AboutUs from "./k-comp-lib/about-us";
+import * as CONSTANTS from "../../constants";
 
 class KContainer extends Component {
   constructor(props) {
@@ -25,12 +25,19 @@ class KContainer extends Component {
     });
   }
   render() {
-    const { TITLE, CONTENT, BUTTON_TEXT, SAMMY_DEF,ASH_DEF,ANDREW_DEF } = this.props.content;
+    const {
+      TITLE,
+      CONTENT,
+      BUTTON_TEXT,
+      SAMMY_DEF,
+      ASH_DEF,
+      ANDREW_DEF
+    } = this.props.content;
     const DEF = {
-        SAMMY_DEF,
-        ASH_DEF,
-        ANDREW_DEF
-    }
+      SAMMY_DEF,
+      ASH_DEF,
+      ANDREW_DEF
+    };
     return (
       <div>
         <CenterEl>
@@ -40,13 +47,16 @@ class KContainer extends Component {
               <Inform text={CONTENT}></Inform>
             </SpacingArea>
             <FlowArea>
-                <AboutUs text={DEF}></AboutUs>
+              <AboutUs text={DEF}></AboutUs>
             </FlowArea>
           </KContainerStyle>
         </CenterEl>
-       <ButtonContainer lower>
-            <ButtonCallToAction text={BUTTON_TEXT} nav={CONSTANTS.NAVHOOKS.HOW}></ButtonCallToAction>
-       </ButtonContainer> 
+        <ButtonContainer lower>
+          <ButtonCallToAction
+            text={BUTTON_TEXT}
+            nav={CONSTANTS.NAVHOOKS.HOW}
+          ></ButtonCallToAction>
+        </ButtonContainer>
       </div>
     );
   }

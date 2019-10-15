@@ -40,9 +40,9 @@ class Wrapper extends Component {
   render() {
     return (
       <Container>
-        <Navigation navoptions={CONSTANTS.NAVHOOKS}/>
+        <Navigation navoptions={CONSTANTS.NAVHOOKS} />
         <Element name={CONSTANTS.NAVHOOKS.LANDING}>
-        <TitleLarge>{CONSTANTS.TITLE}</TitleLarge>
+          <TitleLarge>{CONSTANTS.TITLE}</TitleLarge>
         </Element>
         <Inform text={CONSTANTS.INFORM_TEXT}></Inform>
         <ButtonCallToAction
