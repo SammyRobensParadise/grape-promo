@@ -1,7 +1,5 @@
 import styled from "styled-components";
 const KContainerStyle = styled.div`
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
-  font-family: "Montserrat", sans-serif;
   display: inline-block;
   width: 80%;
   height: 759px;
@@ -26,8 +24,6 @@ display: inline-block;
 width: 80%;
 `
 const FlowArea = styled.div`
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
-font-family: "Montserrat", sans-serif;
 display: inline-block;
 position: relative;
 width: 100%;
