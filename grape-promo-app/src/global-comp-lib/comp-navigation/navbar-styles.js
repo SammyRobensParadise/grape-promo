@@ -11,7 +11,6 @@ const NavigationContainer = styled.div`
   margin-top: 0;
   padding-top: 30px;
   color: #ffffff;
-  display: inline-block;
 `;
 const NavigationBrand = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
@@ -22,6 +21,7 @@ const NavigationBrand = styled.div`
   margin-right: 35px;
   position: relative;
   float: left;
+  background-color: red;
 `;
 const NavigationChild = styled.span`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
