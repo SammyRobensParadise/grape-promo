@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const NavigationContainer = styled.section`
+const NavigationContainer = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -12,7 +12,7 @@ const NavigationContainer = styled.section`
   padding-top: 30px;
   color: #ffffff;
 `;
-const NavigationBrand = styled.section`
+const NavigationBrand = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -22,7 +22,7 @@ const NavigationBrand = styled.section`
   position: relative;
   float: left;
 `;
-const NavigationChild = styled.div`
+const NavigationChild = styled.span`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
