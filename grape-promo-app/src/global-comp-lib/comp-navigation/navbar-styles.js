@@ -2,8 +2,6 @@ import css from "styled-components";
 import React from "react";
 const NavigationContainer = css.div`
   &&& {
-    @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
-    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     width: 100%;
     height: 100%;
@@ -17,8 +15,6 @@ const NavigationContainer = css.div`
 `;
 const NavigationBrand = css.div`
 &&& {
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 18pt;
   padding-left: 35px;
@@ -29,8 +25,6 @@ const NavigationBrand = css.div`
 `;
 const NavigationChild = css.span`
 &&& {
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 18pt;
   padding-left: 35px;
