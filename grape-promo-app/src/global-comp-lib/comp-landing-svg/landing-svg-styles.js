@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const LandingSVGStyles = styled.section`
+const LandingSVGStyles = styled.div`
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
 font-family: "Montserrat", sans-serif;
 font-weight: 300;
@@ -16,7 +16,7 @@ display: inline-block;
 margin-top: 35px;
 margin-botton: 25px;
 `;
-const CenterEl = styled.section`
+const CenterEl = styled.div`
 text-align: center;
 `
 export {LandingSVGStyles,CenterEl}

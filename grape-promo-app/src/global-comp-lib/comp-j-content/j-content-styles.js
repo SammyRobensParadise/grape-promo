@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const JContentStyle = styled.section`
+const JContentStyle = styled.div`
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
 font-family: "Montserrat", sans-serif;
 font-weight: 200;
@@ -13,7 +13,7 @@ font: ExtraLight 18px/22px Montserrat;
 letter-spacing: 0;
 float: right:
 `;
-const AdjustEl = styled.section`
+const AdjustEl = styled.div`
 `
 const ParaStyle =styled.p`
 position: relative;

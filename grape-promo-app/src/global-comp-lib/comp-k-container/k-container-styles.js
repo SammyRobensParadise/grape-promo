@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const KContainerStyle = styled.section`
+const KContainerStyle = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
   display: inline-block;
@@ -7,16 +7,16 @@ const KContainerStyle = styled.section`
   height: 759px;
   margin-top: 100px;
 `;
-const CenterEl = styled.section`
+const CenterEl = styled.div`
 text-align: center;
 `
-const ButtonContainer  = styled.section`
+const ButtonContainer  = styled.div`
 width: 100%;
 text-align:center;
 position: relative;
 transform: translateY(${props  => props.lower?'20px':'-200px'});
 `
-const SpacingArea = styled.section`
+const SpacingArea = styled.div`
 position: relative;
 margin-top: 150px;
 opacity: 0.7;
@@ -25,7 +25,7 @@ font-weight: 200;
 display: inline-block;
 width: 80%;
 `
-const FlowArea = styled.section`
+const FlowArea = styled.div`
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
 font-family: "Montserrat", sans-serif;
 display: inline-block;

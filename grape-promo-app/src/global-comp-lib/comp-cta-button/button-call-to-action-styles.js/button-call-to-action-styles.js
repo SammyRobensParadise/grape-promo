@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const CalltoActionButton = styled.section`
+const CalltoActionButton = styled.div`
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
 font-family: "Montserrat", sans-serif;
 font-weight: 200;
@@ -19,7 +19,7 @@ margin-botton: 25px;
     cursor: pointer;
 }
 `;
-const CenterEl = styled.section`
+const CenterEl = styled.div`
 text-align: center;
 `
 export {CalltoActionButton,CenterEl}

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const LContainerStyle = styled.section`
+const LContainerStyle = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
   display: inline-block;
@@ -11,10 +11,10 @@ const LContainerStyle = styled.section`
   border-radius: 30px;
   margin-top: 100px;
 `;
-const CenterEl = styled.section`
+const CenterEl = styled.div`
 text-align: center;
 `
-const SpacingArea = styled.section`
+const SpacingArea = styled.div`
 position: relative;
 margin-top: 150px;
 opacity: 0.7;
