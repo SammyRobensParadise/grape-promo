@@ -3,14 +3,7 @@ import {
   CalltoActionButton,
   CenterEl
 } from "./button-call-to-action-styles.js";
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { Link, Events, animateScroll as scroll } from "react-scroll";
 class ButtonCallToAction extends Component {
   constructor(props) {
     super(props);

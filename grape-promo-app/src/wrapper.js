@@ -14,7 +14,6 @@ import * as CONSTANTS from "./constants";
 //libs
 import {
   Element,
-  animateScroll as scroll,
 } from "react-scroll";
 
 class Wrapper extends Component {
