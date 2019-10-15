@@ -4,21 +4,25 @@ import {
   NavigationBrand,
   NavigationChild
 } from "./navbar-styles";
-const NAVIGATION_SECTIONS  = {
-    TOP_GRAPE: 'grape',
-    WHAT: 'what',
-    WHO: 'who',
-    HOW: 'how'
-}
+import {
+  Link,
+} from "react-scroll";
+
+const NAVIGATION_SECTIONS = {
+  TOP_GRAPE: "grape",
+  WHAT: "what",
+  WHO: "who",
+  HOW: "how"
+};
 class Navigation extends Component {
   constructor(props) {
     super(props);
-    var {TOP_GRAPE,/*WHAT,WHO,HOW*/}  = NAVIGATION_SECTIONS
+    var { TOP_GRAPE /*WHAT,WHO,HOW*/ } = NAVIGATION_SECTIONS;
     this.state = {
       hasRenderedLocal: false,
       currentScrollPosition: 0,
       ActiveSectionStyle: TOP_GRAPE
-    }
+    };
   }
   componentDidMount() {
     this.setState({
@@ -26,13 +30,41 @@ class Navigation extends Component {
     });
   }
   render() {
+    const { WHAT, WHO, HOW } = this.props.navoptions;
     return (
       <div>
         <NavigationContainer>
-          <NavigationBrand id='grape'>Grape</NavigationBrand>
-          <NavigationChild id='what'>What</NavigationChild>
-          <NavigationChild id='who'>Who</NavigationChild>
-          <NavigationChild id='how'>How</NavigationChild>
+          <NavigationBrand id="grape">Grape</NavigationBrand>
+          <Link
+            activeClass="active"
+            className={WHAT}
+            to={WHAT}
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            <NavigationChild id="what">What</NavigationChild>
+          </Link>
+          <Link
+            activeClass="active"
+            className={WHO}
+            to={WHO}
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            <NavigationChild id="who">Who</NavigationChild>
+          </Link>
+          <Link
+            activeClass="active"
+            className={HOW}
+            to={HOW}
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            <NavigationChild id="how">How</NavigationChild>
+          </Link>
         </NavigationContainer>
       </div>
     );

@@ -3,6 +3,14 @@ import {
   CalltoActionButton,
   CenterEl
 } from "./button-call-to-action-styles.js";
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller
+} from "react-scroll";
 class ButtonCallToAction extends Component {
   constructor(props) {
     super(props);
@@ -12,16 +20,46 @@ class ButtonCallToAction extends Component {
     };
   }
   componentDidMount() {
+    Events.scrollEvent.register("begin", function() {
+      console.log("begin", arguments);
+    });
+
+    Events.scrollEvent.register("end", function() {
+      console.log("end", arguments);
+    });
+
     this.setState({
       hasRenderedLocal: true
     });
   }
+
+  componentWillUnmount() {
+    Events.scrollEvent.remove("begin");
+    Events.scrollEvent.remove("end");
+  }
+
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+  scrollToSection = nav => {};
   render() {
-    const { text } = this.props;
+    const { text, nav } = this.props;
+
     return (
       <div>
         <CenterEl>
-          <CalltoActionButton>{text}</CalltoActionButton>
+          <Link
+            activeClass="active"
+            className={nav}
+            to={nav}
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
+            <CalltoActionButton onClick={() => this.scrollToSection(nav)}>
+              {text}
+            </CalltoActionButton>
+          </Link>
         </CenterEl>
       </div>
     );

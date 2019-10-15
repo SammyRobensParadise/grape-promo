@@ -4,6 +4,8 @@ import SectionTitle from "../comp-section-title/section-title";
 import JContent from "../comp-j-content/j-content";
 import WhatSVG from "../comp-what-svg/what-svg";
 import ButtonCallToAction from '../comp-cta-button/button-call-to-action-styles.js/button-call-to-action.js'
+import * as CONSTANTS from '../../constants'
+
 class JContainer extends Component {
   constructor(props) {
     super(props);
@@ -32,7 +34,7 @@ class JContainer extends Component {
             </div>
           </JContainerStyle>
           <ButtonContainer>
-            <ButtonCallToAction text={BUTTON_TEXT}></ButtonCallToAction>
+            <ButtonCallToAction text={BUTTON_TEXT} nav={CONSTANTS.NAVHOOKS.WHO}></ButtonCallToAction>
             </ButtonContainer>
         </CenterEl>
       </div>

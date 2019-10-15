@@ -10,6 +10,8 @@ import SectionTitle from "../comp-section-title/section-title";
 import ButtonCallToAction from "../comp-cta-button/button-call-to-action-styles.js/button-call-to-action.js";
 import Inform from "../comp-call-to-action/inform";
 import AboutUs from './k-comp-lib/about-us'
+import * as CONSTANTS from '../../constants'
+
 class KContainer extends Component {
   constructor(props) {
     super(props);
@@ -43,7 +45,7 @@ class KContainer extends Component {
           </KContainerStyle>
         </CenterEl>
        <ButtonContainer lower>
-            <ButtonCallToAction text={BUTTON_TEXT}></ButtonCallToAction>
+            <ButtonCallToAction text={BUTTON_TEXT} nav={CONSTANTS.NAVHOOKS.HOW}></ButtonCallToAction>
        </ButtonContainer> 
       </div>
     );
