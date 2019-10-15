@@ -22,7 +22,7 @@ const NavigationBrand = styled.section`
   position: relative;
   float: left;
 `;
-const NavigationChild = styled.section`
+const NavigationChild = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
