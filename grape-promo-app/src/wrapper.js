@@ -12,14 +12,9 @@ import Footer from "./global-comp-lib/comp-footer/footer";
 //text constants
 import * as CONSTANTS from "./constants";
 //libs
-import * as Scroll from "react-scroll";
 import {
-  Link,
   Element,
-  Events,
   animateScroll as scroll,
-  scrollSpy,
-  scroller
 } from "react-scroll";
 
 class Wrapper extends Component {

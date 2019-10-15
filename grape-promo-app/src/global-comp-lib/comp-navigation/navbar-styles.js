@@ -24,6 +24,7 @@ const NavigationBrand = styled.div`
   margin-right: 35px;
   position: relative;
   float: left;
+  background-color: red !important;
 }
 `;
 const NavigationChild = styled.span`
