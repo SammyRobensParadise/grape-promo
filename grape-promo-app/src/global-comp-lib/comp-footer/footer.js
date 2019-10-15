@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { FooterStyle, Contain, ColumnStyle, LinkStyle } from "./footer-styles";
 import * as CONSTANTS from "../../constants";
 class Footer extends Component {
-  constructor({hasClickedPolicy}) {
-    super({hasClickedPolicy});
+  constructor({ hasClickedPolicy }) {
+    super({ hasClickedPolicy });
     this.state = {
       hasRenderedLocal: false,
-      hasClickedPolicyLink: false,
+      hasClickedPolicyLink: false
     };
   }
   componentDidMount() {
@@ -16,16 +16,19 @@ class Footer extends Component {
   }
 
   alertPolicy = () => {
-    alert(CONSTANTS.POLICY)
-  }
+    alert(CONSTANTS.POLICY);
+  };
 
+  sendEmail = () => {
+    window.open(CONSTANTS.EMAILPOLICY);
+  };
   render = () => {
     const { CONTACT, COPYWRITE, POLICY } = this.props.content;
     return (
       <FooterStyle>
         <Contain>
           <ColumnStyle>
-            <LinkStyle>
+            <LinkStyle onClick={() => this.sendEmail()}>
               <p>{CONTACT}</p>
             </LinkStyle>
           </ColumnStyle>
@@ -42,6 +45,6 @@ class Footer extends Component {
         </Contain>
       </FooterStyle>
     );
-  }
+  };
 }
 export default Footer;
