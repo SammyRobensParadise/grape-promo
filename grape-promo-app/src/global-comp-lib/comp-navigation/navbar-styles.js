@@ -1,5 +1,6 @@
-import styled from "styled-components";
-const NavigationContainer = styled.div`
+import css from "styled-components";
+import React from "react";
+const NavigationContainer = css.div`
   &&& {
     @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
     font-family: "Montserrat", sans-serif;
@@ -14,7 +15,7 @@ const NavigationContainer = styled.div`
     color: #ffffff;
   }
 `;
-const NavigationBrand = styled.div`
+const NavigationBrand = css.div`
 &&& {
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
@@ -24,10 +25,9 @@ const NavigationBrand = styled.div`
   margin-right: 35px;
   position: relative;
   float: left;
-  background-color: red !important;
 }
 `;
-const NavigationChild = styled.span`
+const NavigationChild = css.span`
 &&& {
   @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap");
   font-family: "Montserrat", sans-serif;
