@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FooterStyle, Contain, ColumnStyle, LinkStyle } from "./footer-styles";
+import * as CONSTANTS from "../../constants";
 class Footer extends Component {
   constructor({hasClickedPolicy}) {
     super({hasClickedPolicy});
@@ -13,6 +14,11 @@ class Footer extends Component {
       hasRenderedLocal: true
     });
   }
+
+  alertPolicy = () => {
+    alert(CONSTANTS.POLICY)
+  }
+
   render = () => {
     const { CONTACT, COPYWRITE, POLICY } = this.props.content;
     return (
@@ -29,7 +35,7 @@ class Footer extends Component {
             </LinkStyle>
           </ColumnStyle>
           <ColumnStyle>
-            <LinkStyle>
+            <LinkStyle onClick={() => this.alertPolicy()}>
               <p>{POLICY}</p>
             </LinkStyle>
           </ColumnStyle>
