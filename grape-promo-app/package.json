@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pbd": "git commit -a -m 'build and deploy test debugging' && git push && react-scripts build && firebase deploy"
+    "pbd": "git commit -a -m 'build and deploy test debugging' && git push && react-scripts build && firebase deploy && echo DONE"
   },
   "eslintConfig": {
     "extends": "react-app"

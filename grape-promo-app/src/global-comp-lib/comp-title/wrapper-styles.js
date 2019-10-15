@@ -5,5 +5,6 @@ const Container = styled.div`
   background: linear-gradient(#2c233e, #331769);
   overflowx: hidden;
   color: #ffffff;
+  display: block;
 `;
 export default Container;
