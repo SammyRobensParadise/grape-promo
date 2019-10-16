@@ -4,6 +4,10 @@ const WhatSVGStyles = styled.div`
   font-size: 16pt;
   float: left;
   position: relative;
+  @media (max-width: 1432px) {
+    float: center;
+    display: inline-flex;
+  }
 `;
 const CenterEl = styled.div``;
 export { WhatSVGStyles, CenterEl };

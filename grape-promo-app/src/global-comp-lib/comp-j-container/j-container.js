@@ -33,7 +33,6 @@ class JContainer extends Component {
               <WhatSVG></WhatSVG>
               <JContent text={CONTENT}></JContent>
             </div>
-            <div></div>
           </JContainerStyle>
           <ButtonContainer>
             <ButtonCallToAction

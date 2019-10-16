@@ -6,5 +6,10 @@ const Container = styled.div`
   overflowx: hidden;
   color: #ffffff;
   margin-right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 `;
 export default Container;
