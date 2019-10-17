@@ -4,6 +4,8 @@ import {
   CenterEl
 } from "./button-call-to-action-styles.js";
 import { Link, Events, animateScroll as scroll } from "react-scroll";
+import * as cssConstants from "../../../global-styling/css-constants";
+
 class ButtonCallToAction extends Component {
   constructor(props) {
     super(props);
@@ -28,7 +30,11 @@ class ButtonCallToAction extends Component {
   };
   scrollToSection = nav => {};
   render() {
-    const { text, nav } = this.props;
+    const { text, nav, mobile_text } = this.props;
+    const displayText =
+      window.innerWidth < parseInt(cssConstants.breakSix, 10)
+        ? mobile_text
+        : text;
 
     return (
       <div>
@@ -42,7 +48,7 @@ class ButtonCallToAction extends Component {
             duration={700}
           >
             <CalltoActionButton onClick={() => this.scrollToSection(nav)}>
-              {text}
+              {mobile_text === undefined ? text : displayText}
             </CalltoActionButton>
           </Link>
         </CenterEl>

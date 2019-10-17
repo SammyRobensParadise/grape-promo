@@ -23,7 +23,7 @@ class JContainer extends Component {
     });
   }
   render() {
-    const { TITLE, CONTENT, BUTTON_TEXT } = this.props.content;
+    const { TITLE, CONTENT, BUTTON_TEXT, BUTTON_MOBILE_TEXT } = this.props.content;
     return (
       <div>
         <CenterEl>
@@ -38,6 +38,7 @@ class JContainer extends Component {
             <ButtonCallToAction
               text={BUTTON_TEXT}
               nav={CONSTANTS.NAVHOOKS.WHO}
+              mobile_text={BUTTON_MOBILE_TEXT}
             ></ButtonCallToAction>
           </ButtonContainer>
         </CenterEl>

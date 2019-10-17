@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import * as cssConstants from "../../../global-styling/css-constants";
+
 const CalltoActionButton = styled.div`
 font-weight: 200;
 font-size: 12pt;
@@ -15,6 +17,12 @@ margin-top: 35px;
 margin-botton: 25px;
 &:hover{
     cursor: pointer;
+}
+@media (max-width: ${cssConstants.breakFour}) {
+    width: 300px;
+}
+@media (max-width: ${cssConstants.breakSix}) {
+    width: 230px;
 }
 `;
 const CenterEl = styled.div`
