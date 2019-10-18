@@ -19,7 +19,8 @@ export const WHO_SECTION_ = {
   TITLE: "Who",
   CONTENT:
     "We are Waterloo Engineers on a mission to design a system that will improve the way the way all people learn and document software.",
-  BUTTON_TEXT: "Learn how we are building grape…",
+  BUTTON_TEXT: "Learn how we are building grape...",
+  BUTTON_MOBILE_TEXT: "How we're building...",
   SAMMY_DEF: "Sammy Robens-Paradise Systems Design Engineering ‘23",
   ASH_DEF: "Ash Raji Mechatronics Engineering ‘22",
   ANDREW_DEF: "Andrew Mouchantaf Mechatronics Engineering ‘22"

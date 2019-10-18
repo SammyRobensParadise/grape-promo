@@ -1,9 +1,14 @@
 import styled from "styled-components";
+import * as cssConstants from "../../global-styling/css-constants";
+
 const KContainerStyle = styled.div`
   display: inline-block;
   width: 80%;
   height: 759px;
   margin-top: 100px;
+  @media (max-width: ${cssConstants.breakOne}) {
+    margin-top: 50px;
+  }
 `;
 const CenterEl = styled.div`
 text-align: center;
@@ -33,5 +38,11 @@ background: transparent linear-gradient(180deg, rgba(117, 63, 145, 0.10) 0%, rgb
 box-shadow: 0px 3px 6px rgba(140, 146, 129, 0.21);
 border-radius: 30px;
 margin-top: 150px;
+@media (max-width: ${cssConstants.break1270}) {
+height: 550px;
+@media (max-width: ${cssConstants.break1000}) {
+  height: 750px;
+  margin-top: 50px;
+}
 `
 export { KContainerStyle,CenterEl,ButtonContainer,SpacingArea,FlowArea};

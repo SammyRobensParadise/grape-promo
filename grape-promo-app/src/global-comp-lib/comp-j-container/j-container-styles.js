@@ -21,6 +21,7 @@ const JContainerStyle = styled.div`
   }
   @media (max-width: ${cssConstants.breakTwo}) {
     height: 1100px;
+    margin-top: 50px;
   }
 `;
 const CenterEl = styled.div`

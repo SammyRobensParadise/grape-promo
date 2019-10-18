@@ -30,23 +30,23 @@ class AboutUs extends Component {
     return (
       <div>
         <Contain>
-          <ColumnStyle>
+          <ColumnStyle first>
             <a href={SAMMY_LINK}>
               <SammyContainer></SammyContainer>
             </a>
-            <TextContainer>{SAMMY_DEF}</TextContainer>
+            <TextContainer first>{SAMMY_DEF}</TextContainer>
           </ColumnStyle>
-          <ColumnStyle>
+          <ColumnStyle second>
             <a href={ASH_LINK}>
               <AshContainer></AshContainer>
             </a>
-            <TextContainer>{ASH_DEF}</TextContainer>
+            <TextContainer second>{ASH_DEF}</TextContainer>
           </ColumnStyle>
-          <ColumnStyle>
+          <ColumnStyle third>
             <a href={ANDREW_LINK}>
               <AndrewContainer></AndrewContainer>
             </a>
-            <TextContainer>{ANDREW_DEF}</TextContainer>
+            <TextContainer third>{ANDREW_DEF}</TextContainer>
           </ColumnStyle>
         </Contain>
       </div>

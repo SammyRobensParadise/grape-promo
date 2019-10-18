@@ -29,6 +29,7 @@ class KContainer extends Component {
       TITLE,
       CONTENT,
       BUTTON_TEXT,
+      BUTTON_MOBILE_TEXT,
       SAMMY_DEF,
       ASH_DEF,
       ANDREW_DEF
@@ -55,6 +56,7 @@ class KContainer extends Component {
           <ButtonCallToAction
             text={BUTTON_TEXT}
             nav={CONSTANTS.NAVHOOKS.HOW}
+            mobile_text={BUTTON_MOBILE_TEXT}
           ></ButtonCallToAction>
         </ButtonContainer>
       </div>
