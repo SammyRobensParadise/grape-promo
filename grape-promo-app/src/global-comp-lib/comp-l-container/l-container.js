@@ -17,6 +17,8 @@ class LContainer extends Component {
   }
   render() {
     const { TITLE, CONTENT } = this.props.content;
+    const heightParam = window.innerWidth < 500 ? window.innerWidth - 100 : 500;
+    const widthParam = window.innerWidth < 500 ? window.innerWidth - 100 : window.innerWidth - 250;
     return (
       <div>
         <CenterEl>
@@ -26,7 +28,7 @@ class LContainer extends Component {
               <Inform text={CONTENT}></Inform>
             </SpacingArea>
             <div>
-                <TimelineSVG height={500}></TimelineSVG>
+                <TimelineSVG height={heightParam} width={widthParam}></TimelineSVG>
             </div>
           </LContainerStyle>
         </CenterEl>
