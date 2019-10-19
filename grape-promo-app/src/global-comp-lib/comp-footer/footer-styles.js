@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import * as cssConstants from "../../global-styling/css-constants";
+
 const FooterStyle = styled.div`
   display: inline-block;
   width: 100%;
@@ -31,6 +33,9 @@ width: calc(94%/3);
 padding: 10px;
 text-align: center;
 opacity: 0.7;
+@media (max-width: ${cssConstants.break1000}) {
+  width: calc(94%)
+}
 `
 const LinkStyle = styled.a`
 &:hover{
