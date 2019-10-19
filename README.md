@@ -9,6 +9,9 @@ your friendly neighbourhood promotional react-app for Grape 🍇 hosted on 🔥 
 1. `git clone https://github.com/SammyRobensParadise/grape-promo.git`
 2. `npm install`
 3. `npm install -g firebase-tools`
+4. `cd grape-promo`
+5. `npm start`, You should see a development server spun up at localhost:3000
+6. <i>Get Coding!</i>
 
 
 
@@ -43,6 +46,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This will deploy whatever is bundled in the `build` folder to a provisioned firebase instance. It may take up to an hour for code changes to propigate across all servers so keep that in mind when deploying.
 
+###  `npm run pbd`
+
+`npm run pbd` will run `git add .` then `git commit -m "generic message` then `git push origin master` then `npm run build` then `firebase deploy`. i.e it is  a rapid deployement and commit command.\
+
+<b>CAUTION</b>. Only use this command if you are deploying a hot fix to master or have a good reason to deploy directly to master. This is not a script for a common use case!
+
 ## Hosting URL:
 
 https://grape-promo.firebaseapp.com/
@@ -59,6 +68,7 @@ https://grape-promo.firebaseapp.com/
     | manifest.json
     | robots.txt
 | src
+    | global-styles
     | global-comp-lib
         *contains all components
     | App.js
@@ -66,6 +76,7 @@ https://grape-promo.firebaseapp.com/
     | index.css
     | wrapper.js
     | index.js
+    | constants.js
     | serviceWorker.js
 | package-lock.json
 | package.json
@@ -82,9 +93,10 @@ Ensure the following:
 3. [ ] There are no API keys hardcoded into code that a user could access
 4. [ ] Only rebase master if you are confident in your merge
 5. [ ] Ensure you have consulted before you make design changes
+6. [ ] Shake the tree! Did you `npm install` node_modules that you are not using? Remove Them!
 
 ## Contributors:
 
 1.  Sammy Robens-Paradise, The University of Waterloo [website](https://sammyrp.com)
-2.  ...
-3.  ...
+2.  ...TBD...
+3.  ...TBD...
