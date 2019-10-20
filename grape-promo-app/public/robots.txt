@@ -1,2 +1,2 @@
-# https://www.robotstxt.org/robotstxt.html
+# Allow all bots to crawl site.
 User-agent: *
