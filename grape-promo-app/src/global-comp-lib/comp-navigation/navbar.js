@@ -34,7 +34,7 @@ class Navigation extends Component {
     return (
       <div>
         <NavigationContainer>
-          <NavigationBrand id="grape">Grape</NavigationBrand>
+          <NavigationBrand id="grape">grape</NavigationBrand>
           <Link
             activeClass="active"
             className={WHAT}
