@@ -29,7 +29,9 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    run: cd grape-promo-app && npm run build
+    steps:
+      - name: build again
+        run: cd grape-promo-app && npm run build
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
