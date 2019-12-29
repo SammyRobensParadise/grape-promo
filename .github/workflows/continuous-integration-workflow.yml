@@ -20,6 +20,11 @@ jobs:
         with:
           name: build
           path: ./grape-promo-app/build
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: functions
+          path: ./grape-promo-app/functions
   deploy:
     name: Deploy
     needs: build
@@ -34,7 +39,7 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting
+          args: deploy
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           PROJECT_PATH: ./grape-promo-app
