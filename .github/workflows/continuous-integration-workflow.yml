@@ -36,6 +36,8 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
+        name: Build Deploy Check
+        run:  npm run build
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
