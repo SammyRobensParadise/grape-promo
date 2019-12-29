@@ -31,9 +31,8 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
-      - name: change directory
-        run: cd grape-promo-app
       - name: Deploy to Firebase
+        working-directory: ./grape-promo-app
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
