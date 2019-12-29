@@ -32,9 +32,9 @@ jobs:
         with:
           name: build
       - name: Deploy to Firebase
-        working-directory: ./grape-promo-app
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
+        working-directory: ./grape-promo-app
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
