@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - pipeline
+      - typofix
 jobs:
   build:
     name: Build

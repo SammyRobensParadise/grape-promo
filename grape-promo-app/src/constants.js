@@ -28,7 +28,7 @@ export const WHO_SECTION_ = {
 export const HOW_SECTION_ = {
   TITLE: "HOW",
   CONTENT:
-    "We are following an iterative design process, moving quickly from design research to design and development of a proof of concept design"
+    "We are following an iterative design process, moving quickly from design research to development of a proof of concept."
 };
 export const FOOTER_SECTION_ = {
   CONTACT: "Contact",
