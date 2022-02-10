@@ -6,7 +6,7 @@
     "@svgr/webpack": "^4.3.3",
     "animejs": "^3.1.0",
     "colors": "^1.4.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-lazy-load": "^3.0.13",
